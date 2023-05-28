@@ -1,0 +1,59 @@
+body {
+  background-color: blue;
+}
+#cubelogo {
+  width: 60px;
+  margin: 10%;
+}
+#cubelogo {
+  width: 60px;
+  margin: 10%;
+}
+
+#ShopName {
+  width: 200px;
+}
+li,
+a,
+button {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 15px;
+}
+.logo {
+  list-style: none;
+}
+.navlinks {
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+.navlinks li a {
+  color: white; /* Default color */
+}
+
+.buyout {
+  align-items: center;
+  display: block;
+  background-color: white;
+  background-image: url(PIC/MY_LOGO.svg);
+  width: 450px;
+  height: 50%;
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+.text {
+  font-size: 50px;
+  background: none;
+  color: red;
+}

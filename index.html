@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>WINz CUBE SHOP</title>
+  </head>
+  <body>
+    <div class="TOP"></div>
+    <div class="navbar">
+        <header>
+          <header>
+          <img  id="ShopName" src="PIC/ShopName.png" alt="MyLogo">
+            <img id="cubelogo" src="PIC/Asset 26.png" alt="MyLogo">
+          </header>
+            <nav>
+            <ul class="navlinks">
+            <li id="HOMEH"><a href="#">HOME</a></li>
+            <li><a href="#shopnow">SHOP NOW</a></li>
+            <li><a href="#Aboutpart">ABOUT US</a></li>
+        </ul> 
+        </nav>
+        </header> 
+        <div class="img-slider">
+          <input type="radio" name="slider" id="slide1" class="slider-radio" checked>
+          <div class="slide">
+            <img src="PIC/ADS1.jpg" alt="">
+          </div>
+        
+          <input type="radio" name="slider" id="slide2" class="slider-radio">
+          <div class="slide">
+            <img src="PIC/ADS2.jpg" alt="">
+          </div>
+        
+          <input type="radio" name="slider" id="slide3" class="slider-radio">
+          <div class="slide">
+            <img src="PIC/ADS3.jpg" alt="">
+          </div>
+
+          
+          <div class="navigation">
+            <label for="slide1" class="btn active"></label>
+            <label for="slide2" class="btn"></label>
+            <label for="slide3" class="btn"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+
+
+    <table>
+      <tr>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/GAN M11 PRO.jpg" alt="GAN M11 PRO" class="image" />
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow"  onclick="addToCart('GAN M11 PRO', 3600)" >BUY ME</a></div>
+            </div>
+          </div>
+        </td>
+        <div class="ADDTOCART">
+          <h2>CART</h2>
+          <div id="cart-items">
+            <div>
+              <button id="remove-btn" onclick="removeFromCart()">REMOVE</button>
+            </div>
+          </div>                                                  
+          <div id="cart-total-buy">
+            <div id="cart-total">   <div id="buyn" style="display: none;">
+              <a href="/buyoutpages(HTML)/BuyoutBLUE.html" ><button>BUY</button></a>
+            </div></div>
+          </div>
+        </div>
+        
+
+          <div>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/GAN 365M AIR SM.jpg" alt="GAN M11 PRO" class="image"/>
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow"  onclick="addToCart('GAN 365M AIR SM', 3000)" >BUY ME</a></div>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/MOYO WEILONG MAGLEV 2022.jpg" alt="GAN M11 PRO" class="image" />
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow" onclick="addToCart('MOYO WEILONG MAGLEV 2022', 80)">BUY ME</a></div>
+            </div>
+          </div>
+        </td>
+      </tr>
+
+        </div>
+      </div>
+      <tr>
+        <td>
+          <div class="contain" id="shopnow">
+            <h1 class="p2o">₱3600</h1>
+            <h2 class="h2o">Gan 11 Pro 3x3</h2>
+            <p class="p2o">A Pro version of Gan M11</p>
+          </div>
+        </td>
+        <td>
+          <div class="contain" id="shopnow">
+            <h1 class="p2o">₱3000</h1>
+            <h2 class="h2o">Gan 365 Air 3x3</h2>
+            <p class="p2o">3x3 Speedcube from Gan</p>
+          </div>
+        </td>
+        <td>
+          <div class="contain" id="shopnow">
+            <h1 class="p2o">₱80</h1>
+            <h2 class="h2o">Moyu Meilong WRM Maglev 3x3</h2>
+            <p class="p2o">3x3 rubikscube from Moyu</p>
+          </div>
+        </td>
+      </tr>
+      
+
+      <tr>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/7.png" alt="GAN M11 PRO" class="image"/>
+            <div class="paragraph-container">
+             <div id="buy" class="text"><a id="cubebtn" href="#shopnow" onclick="addToCart('MOYU GTS M 4x4', 140)"> BUY ME </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </td>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/8.png" alt="GAN M11 PRO" class="image"/>
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow" onclick="addToCart('MOFANG JIAOSHI 4x4', 200)"> BUY ME </a></div>
+            </div>
+          </div>
+        </div>
+      </div> 
+        </td>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/9.png" alt="GAN M11 PRO" class="image"/>
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow" onclick="addToCart('Gan 450M ', 4500)"> BUY ME </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+         <div class="contain" id="shopnow">
+    <h1 class="p2o">₱140</h1>
+    <h2 class="h2o">Moyu GTS M</h2>
+    <p class="p2o">4x4 rubikscube from Moyu</p>
+  </div>
+        </td>
+        <td>
+          <div class="contain" id="shopnow">
+            <h1 class="p2o">₱200</h1>
+            <h2 class="h2o">Mofang Jiaoshi 4x4</h2>
+            <p class="p2o">4x4 rubikscube from Mofang Jiaoshi</p>
+          </div>
+        </td>
+        <td>
+          <div class="contain" id="shopnow">
+            <h1 class="p2o">₱4500</h1>
+            <h2 class="h2o">Gan 450M</h2>
+            <p class="p2o">4x4 rubikscube from Gan</p>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/10.png" alt="GAN M11 PRO" class="image"/>
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow" onclick="addToCart('Moyu Weilong 140', 4500)"> BUY ME </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </td>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/11.png" alt="GAN M11 PRO" class="image"/>
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow" onclick="addToCart('Moyu Pyraminx', 80)"> BUY ME </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </td>
+        <td>
+          <div class="container" id="shopnow">
+            <img src="PIC/12.png" alt="GAN M11 PRO" class="image"/>
+            <div class="paragraph-container">
+              <div id="buy" class="text"><a id="cubebtn" href="#shopnow" onclick="addToCart('Mofang Jiaoshi Megaminx', 380)"> BUY ME </a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+         <div class="contain" id="shopnow">
+    <h1 class="p2o">₱140</h1>
+    <h2 class="h2o">Moyu Weilong 2x2</h2>
+    <p class="p2o">2x2rubikscube from Moyu</p>
+  </div>
+        </td>
+        <td>
+        
+  <div class="contain" id="shopnow">
+    <h1 class="p2o">₱80</h1>
+    <h2 class="h2o">Moyu Pyraminx</h2>
+    <p class="p2o">Pyraminx type of rubikscube from Moyu</p>
+  </div>
+        </td>
+        <td>
+          <div class="contain" id="shopnow">
+            <h1 class="p2o">₱380</h1>
+            <h2 class="h2o">Mofang Jiaoshi Megaminx</h2>
+            <p class="p2o">Megaminx type rubikscube from Moyu</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+ 
+
+
+
+
+
+    <div class="about-us" id="Aboutpart">
+      <h2 id="title">About Us</h2>
+      <p>We are a team of puzzle enthusiasts who love to explore the world of Rubik's Cube. We believe that Rubik's Cube is not just a simple toy but a mind-bending puzzle that offers endless possibilities for creativity and problem-solving. Here are a few reasons why we think Rubik's Cube is so much fun to play:</p>
+      <ul>
+        <li class="bullet" ><strong>Challenge:</strong> Rubik's Cube offers a unique challenge that keeps your brain engaged and focused. The more you practice, the more you develop your problem-solving skills and the faster you get at solving the cube.</li>
+        <li class="bullet" ><strong>Creativity:</strong> Rubik's Cube allows you to express your creativity by coming up with your own solving methods or by inventing new patterns and designs on the cube.</li>
+        <li class="bullet" ><strong>Social:</strong> Rubik's Cube is a great way to connect with other puzzle enthusiasts and share your passion for solving puzzles. It's a fun and engaging way to make new friends and be part of a community.</li>
+      </ul>
+    </div>
+    
+
+<div class="floater" id="bottom">
+  <img  id="FooterNm" src="PIC/ShopName.png" alt="MyLogo">
+  <p id="footerp">Fechalin, Alwin All Rights Reserve</p>
+  <a href="#TOP"><img id="footerLg" src="PIC/Asset 26.png" alt="MyLogo"></a>
+</div>
+
+
+
+
+
+
+   
+   
+   
+        <div class="loader">
+      <div class="cell d-0"></div>
+      <div class="cell d-1"></div>
+      <div class="cell d-2"></div>
+    
+      <div class="cell d-1"></div>
+      <div class="cell d-2"></div>
+      
+      
+      <div class="cell d-2"></div>
+      <div class="cell d-3"></div> 
+      
+      
+      <div class="cell d-3"></div>
+      <div class="cell d-4"></div>
+      
+    </div>
+      <script type="text/javascript" src="node.js"></script>
+  </body>
+</html>
